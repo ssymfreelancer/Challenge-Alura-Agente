@@ -12,7 +12,7 @@ from langchain_core.documents import Document
 # CONFIGURACIÓN DE RUTAS Y DATOS BASE
 # ---------------------------------------------------------------------
 RUTA_DB = "faiss_index"
-CARPETA_EJEMPLOS = "documentos_ejemplo"
+CARPETA_EJEMPLOS = "documentos_ejemplos"
 
 if not os.path.exists(CARPETA_EJEMPLOS):
     os.makedirs(CARPETA_EJEMPLOS)
