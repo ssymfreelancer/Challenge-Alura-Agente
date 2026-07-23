@@ -33,8 +33,8 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 
 ### 1. Clonar el repositorio
 ```bash o powershell
-git clone https://github.com
-cd TU_REPOSITORIO
+git clone https://github.com/ssymfreelancer/Challenge-Alura-Agente.git
+cd Challenge-Alura-Agente
 ```
 
 ### 2. Crear un entorno virtual
@@ -54,7 +54,24 @@ streamlit run app.py
 ```
 
 ### 5. Desplegar en la nube ( en mi caso utilice una free tier de aws)
+El proceso consiste en instalar y desplegar el contenido de este repositorio en una instancia de EC2 , configurar las politicas de seguridad para que se pueda acceder a travez de los puertos que corresponden a 
+los utilizados por streamlit.
+
+---
 
 
 
 > 💡 **Nota:** Debido a los limites al usar hacer peticiones con el llm de embeddings se dejo la posibilidad en la barra lateral de agregar la API-KEY de Google , necesitarás una clave de API que puedes adquirir en : [Google AI Studio](https://aistudio.google.com/api-keys) para poder utilizar las funciones de Embedding y el Chatbot. Introduce tu clave directamente en la interfaz de usuario al iniciar la app para desbloquear el chat.
+
+---
+
+### Se ha agregado el archivo que configura el Tema del front de Streamlit con una tematica mas moderna.
+### Puedes ver ejemplos de posibles preguntas a realizar para probar el chatbot ademas del diseño del tema aplicado:
+
+
+---
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/6030a158-74a0-4458-bb05-c85d5fcda440" />
+<img width="1600" height="896" alt="image" src="https://github.com/user-attachments/assets/0e4ae2a9-dee9-41cd-896b-9647fe8ca396" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/bcf3b04d-0172-442a-b111-f99acee1712c" />
+
+
