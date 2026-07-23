@@ -1,0 +1,7 @@
+[theme]
+base = "dark"
+primaryColor = "#ff007f"        # Neon Pink
+backgroundColor = "#000814"     # Deep Void Blue
+secondaryBackgroundColor = "#030b21" # Slightly Lighter Void Blue
+textColor = "#00f0ff"           # Neon Teal/Cyan
+font = "monospace"
