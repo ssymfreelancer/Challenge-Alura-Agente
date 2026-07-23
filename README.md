@@ -57,6 +57,8 @@ streamlit run app.py
 El proceso consiste en instalar y desplegar el contenido de este repositorio en una instancia de EC2 , configurar las politicas de seguridad para que se pueda acceder a travez de los puertos que corresponden a 
 los utilizados por streamlit.
 
+Link temporal donde esta hosteado en aws el proyecto:   http://44.202.242.18:8501/
+
 ---
 
 
